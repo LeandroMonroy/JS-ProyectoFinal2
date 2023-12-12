@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AppleStore | Bag</title>
+    <link rel="icon" type="" href="./assets/img/apple.svg" />
+
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body class="dark">
+    <!-- ---------------------------------------- NAVBAR ---------------------------------------- -->
+    <div class="navbar ff-1 navbar-dark">
+      <div class="container d-flex justify-content-around">
+        <a href="./index.html" class="nav-link"><i class="bi bi-apple"></i></a>
+        <a href="#" class="nav-link">Store</a>
+        <a href="./macbook.html" class="nav-link">Mac</a>
+        <a href="#" class="nav-link">iPad</a>
+        <a href="#" class="nav-link">iPhone</a>
+        <a href="#" class="nav-link">Watch</a>
+        <a href="#" class="nav-link">Vision</a>
+        <a href="#" class="nav-link">AirPods</a>
+        <a href="#" class="nav-link">TV & Home</a>
+        <a href="#" class="nav-link">Entertainment</a>
+        <a href="#" class="nav-link">Accesories</a>
+        <a href="#" class="nav-link">Support</a>
+        <a href="#" class="nav-link"><i class="bi bi-search"></i></a>
+        <a href="#" class="nav-link"
+          ><i class="bi bi-bag"></i><span id="nCart">0</span></a
+        >
+      </div>
+    </div>
+
+    <main>
+      <section>
+        <div class="container cart">
+          <h2 id="bagMessage">Your Bag is empty.</h2>
+          <p>
+            <a href="">Sign in</a>
+            <span>To see if you have any saved items.</span>
+          </p>
+          <div class="flex row">
+            <div class="col-lg-2">
+              <p>My Profile</p>
+              <ul>
+                <li><i class="bi bi-box-seam"></i>Orders</li>
+                <li><i class="bi bi-bookmark"></i>Your Saves</li>
+                <li><i class="bi bi-pie-chart"></i>Account</li>
+                <li><i class="bi bi-person-circle"></i>Sign in</li>
+              </ul>
+            </div>
+
+            <!-- Carrito-->
+            <div class="col-lg-10">
+              <table class="table table-dark table-hover" id="tableCart">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Title</th>
+                    <th scope="col">Price</th>
+                    <th scope="col">Quantity</th>
+                    <th scope="col">Edit</th>
+                    <th scope="col">Sub Total</th>
+                  </tr>
+                </thead>
+                <tbody class="table-group-divider tableCart">
+                  <!-- Template #carrito-->
+                </tbody>
+
+                <template class="templateCart" id="templateCart">
+                  <tr>
+                    <th scope="row" class="productoID">2</th>
+                    <td class="productoTitle">Title</td>
+                    <td class="productoPrice">Price</td>
+                    <td class="productoCantidad">Quantity</td>
+                    <td class="productoBotones">
+                      <button class="btn-less">-</button>
+                      <button class="btn-plus">+</button>
+                    </td>
+                    <td class="productoSubtotal">Subtotal</td>
+                  </tr>
+                </template>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./assets/js/carrito.js"></script>
+    <!--<script src="./assets/js/macbook.js"></script>-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

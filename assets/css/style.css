@@ -1,0 +1,246 @@
+/*Local Var*/
+:root {
+  /*Neutral*/
+  --light-white: #f9f9fc;
+  --dark-white: #f5f5f7;
+  --black: #000;
+  --light-black: #1d1d1f;
+  --ligh-gray: #7d7d7e;
+  --medium-gray: #86868B;
+  --dark-gray: #424245;
+  --apple-red: #ab1f2e;
+  --light-blue: #0071E3;
+  --dark-blue: #0066CC;
+  --dark-red: #B64400;
+  --apple-orange: #fd7321;
+  /*size*/
+  --sz-1: 1rem;
+  --sz-2: 1.25rem;
+  --sz-3: 1.5rem;
+  --sz-4: 1.75rem;
+  --sz-5: 2rem;
+  --sz-6: 2.5rem;
+  --sz-7: 3rem;
+  --sz-8: 3.5rem;
+  --sz-9: 4rem;
+  --sz-10: 5rem;
+  --sz-11: 6rem;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: var(--light-white);
+}
+
+.navbar {
+  font-size: var(--sz-3);
+  background-color: var(--light-white);
+  color: var(--ligh-gray);
+  padding: var(--sz-2) 0;
+}
+.navbar .bi {
+  color: var(--black);
+}
+
+.navbar-dark {
+  background-color: var(--light-black);
+  color: var(--light-white);
+  padding: var(--sz-2) 0;
+}
+.navbar-dark .bi {
+  color: var(--light-white);
+}
+
+.msg-box {
+  font-size: var(--sz-3);
+  padding: var(--sz-3) 0;
+  text-align: center;
+}
+.msg-box-contrast {
+  color: var(--dark-blue);
+}
+
+.page-title {
+  font-weight: 600;
+  font-size: var(--sz-6);
+  line-height: 100%;
+  padding: var(--sz-11) var(--sz-8);
+}
+.page-title h1 {
+  font-weight: 600;
+  font-size: var(--sz-11);
+  line-height: 100%;
+  letter-spacing: -0.25rem;
+}
+.page-title h2 {
+  font-weight: 600;
+  font-size: var(--sz-10);
+  line-height: 100%;
+  letter-spacing: -0.25rem;
+  padding: var(--sz-3) 0;
+}
+
+.bc-lw {
+  background-color: var(--light-white);
+}
+
+.bc-dw {
+  background-color: var(--dark-white);
+}
+
+.card, .card-sm {
+  text-align: center;
+  border: none;
+  background-color: var(--light-white);
+  width: 30rem;
+}
+.card-title, .card-sm-title {
+  font-size: var(--sz-6);
+  font-weight: 600;
+  line-height: 100%;
+}
+.card-subtitle, .card-sm-subtitle {
+  font-size: var(--sz-4);
+  font-weight: 600;
+}
+.card-description, .card-sm-description {
+  font-size: var(--sz-4);
+  font-weight: 300;
+}
+.card-price, .card-sm-price {
+  font-size: var(--sz-4);
+  font-weight: 600;
+}
+.card-btn, .card-sm-btn {
+  font-size: var(--sz-3);
+  font-weight: 600;
+  border-radius: 50px;
+  background-color: var(--light-blue);
+  color: var(--light-white);
+  padding: var(--sz-1) 0;
+}
+.card-btn-buy, .card-sm-btn-buy {
+  font-size: var(--sz-3);
+  font-weight: 600;
+  color: var(--dark-blue);
+  padding: var(--sz-1) 0;
+}
+.card-img, .card-sm-img {
+  max-height: 300px;
+}
+.card-img-top, .card-sm-img-top {
+  border: none;
+  display: block;
+  height: 25rem;
+}
+
+.dark {
+  background-color: var(--light-black);
+  color: var(--medium-gray);
+  font-size: var(--sz-2);
+}
+.dark h2 {
+  color: var(--light-white);
+}
+
+.cart h2 {
+  padding: var(--sz-3) 0;
+}
+.cart p {
+  padding: var(--sz-1);
+}
+.cart li {
+  color: var(--light-white);
+  text-decoration: none;
+  list-style: none;
+  padding-bottom: var(--sz-2);
+}
+.cart .bi {
+  color: var(--medium-gray);
+  padding-right: var(--sz-3);
+}
+
+.table td {
+  background-color: transparent;
+  color: var(--medium-gray);
+}
+.table th {
+  background-color: transparent;
+  color: var(--medium-gray);
+}
+.table thead th {
+  color: var(--light-white);
+}
+
+.btn-less, .btn-plus {
+  background-color: var(--medium-gray);
+  width: 25px;
+  border: none;
+  color: var(--light-black);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.apple-title {
+  font-size: var(--sz-10);
+  line-height: 85%;
+  padding-top: var(--sz-11);
+}
+.apple-subtitle, .apple-sub2 {
+  font-size: var(--sz-6);
+  line-height: 85%;
+}
+.apple-link {
+  font-size: var(--sz-5);
+  letter-spacing: 0.5px;
+  color: var(--dark-blue);
+  text-decoration: none;
+  line-height: 300%;
+}
+
+.index {
+  background-color: var(--light-white);
+}
+
+.hero {
+  margin-top: var(--sz-2);
+  background-color: var(--dark-white);
+  color: var(--dark-gray);
+}
+.hero-black-out {
+  background-color: var(--black);
+}
+
+.cardH {
+  background-color: var(--dark-white);
+  line-height: 95%;
+  padding-top: var(--sz-10);
+}
+.cardH-Title {
+  font-size: var(--sz-8);
+}
+.cardH-Subtitle {
+  font-size: var(--sz-5);
+  font-weight: 400;
+}
+.cardH-Description {
+  font-size: var(--sz-4);
+  font-weight: 400;
+}
+
+.cardH button {
+  font-size: var(--sz-4);
+}/*# sourceMappingURL=style.css.map */

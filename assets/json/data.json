@@ -1,0 +1,109 @@
+[
+    {
+        "id":"1234",
+        "ccolor": "ccblack",
+        "bimodel": "bi-apple",
+        "type": "watch",
+        "title":"WATCH",
+        "subtitle":"SERIES 9",
+        "subtitle-color": "red",
+        "description": "Smarter. Brighter. Midhtier.",
+        "img":"./assets/img/Card1.png",
+        "stock":"25",
+        "price":"1500",
+        "index": "true"
+    },
+    {
+        "id":"2345",
+        "ccolor": "x",
+        "bimodel": "x",
+        "type": "MacBook",
+        "title":"MacBook Pro",
+        "subtitle":"",
+        "subtitle-color": "",
+        "description": "Mind-blowing. Head-turning.",
+        "img":"./assets/img/Card2.png",
+        "stock":"15",
+        "price":"1500",
+        "index": "true"
+    },
+    {
+        "id":"3456",
+        "ccolor": "x",
+        "bimodel": "bi-apple",
+        "type": "Watch",
+        "title":"WATCH",
+        "subtitle":"ULTRA 2",
+        "subtitle-color": "orange",
+        "description": "Next level adventure.",
+        "img":"./assets/img/Card3.png",
+        "stock":"20",
+        "price":"1500",
+        "index": "true"
+    },
+    {
+        "id":"4567",
+        "ccolor": "cblack",
+        "bimodel": "x",
+        "type": "AirPods",
+        "title":"AirPods Pro",
+        "subtitle":"",
+        "subtitle-color": "",
+        "description": "Say it in a way only you can.",
+        "img":"./assets/img/Card4.png",
+        "stock":"35",
+        "price":"1500",
+        "index": "true"
+    },
+    {
+        "id":"5678",
+        "ccolor": "x",
+        "bimodel": "x",
+        "type": "MacBook",
+        "title":"MacBook Air 13",
+        "subtitle":"M1 chip",
+        "subtitle-color": "x",
+        "description": "The most affordable Mac Laptopn to get things done on the go.",
+        "img":"./assets/img/macbookAir.png",
+        "stock":"25",
+        "priceInterval": "From $999 or $83.25/mo.",
+        "price":"999",
+        "index": "false"
+    },  
+    {
+        "id":"6789",
+        "ccolor": "x",
+        "bimodel": "x",
+        "type": "MacBook",
+        "title":"MacBook Air 13 and 15",
+        "subtitle":"M2 chip",
+        "subtitle-color": "x",
+        "description": "Stringly thin and fast so you can work, play, or create anywherer.",
+        "img":"./assets/img/macbookAirM2.png",
+        "stock":"25",
+        "priceInterval": "From $1099 or $91.58/mo.",
+        "price":"1099",
+        "index": "false"
+    } ,  
+    {
+        "id":"7890",
+        "ccolor": "x",
+        "bimodel": "x",
+        "type": "MacBook",
+        "title":"MacBook Pro 14 and 16",
+        "subtitle":"M3, M3 Pro, or M3 Max chip",
+        "subtitle-color": "x",
+        "description": "The most advanced Mac Laptops for demanding workflows.",
+        "img":"./assets/img/macbookPro.png",
+        "stock":"25",
+        "priceInterval": "From $1599 or $133.25/mo.",
+        "price":"1599",
+        "index": "false"
+    }
+]
+
+
+
+
+
+

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AppleStore</title>
+    <link rel="icon" type="" href="./assets/img/apple.svg" />
+
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body class="dark">
+    <!-- ---------------------------------------- NAVBAR ---------------------------------------- -->
+    <div class="navbar ff-1 navbar-dark">
+      <div class="container d-flex justify-content-around">
+        <a href="#" class="nav-link"><i class="bi bi-apple"></i></a>
+        <a href="#" class="nav-link">Store</a>
+        <a href="./macbook.html" class="nav-link">Mac</a>
+        <a href="#" class="nav-link">iPad</a>
+        <a href="#" class="nav-link">iPhone</a>
+        <a href="#" class="nav-link">Watch</a>
+        <a href="#" class="nav-link">Vision</a>
+        <a href="#" class="nav-link">AirPods</a>
+        <a href="#" class="nav-link">TV & Home</a>
+        <a href="#" class="nav-link">Entertainment</a>
+        <a href="#" class="nav-link">Accesories</a>
+        <a href="#" class="nav-link">Support</a>
+        <a href="#" class="nav-link"><i class="bi bi-search"></i></a>
+        <a href="./carrito.html" class="nav-link"
+          ><i class="bi bi-bag"></i><span id="nCart">0</span></a
+        >
+      </div>
+    </div>
+
+    <main class="index">
+      <section>
+        <!-- ---------------------------------------- HERO ---------------------------------------- -->
+        <div class="container-fluid hero">
+          <div class="d-flex justify-content-center">
+            <p class="apple-title">The Apple Store Shopping Event</p>
+          </div>
+          <div class="d-flex justify-content-center">
+            <p class="apple-subtitle">
+              Get an Apple Gift Card up to $200 with your eligible purchase.
+            </p>
+          </div>
+          <div class="d-flex justify-content-center">
+            <p class="apple-subtitle sub2">Offer starts 11.24.</p>
+          </div>
+          <div class="d-flex justify-content-center">
+            <p>
+              <a href="" class="apple-link">Get an early look></a>
+            </p>
+          </div>
+          <div class="d-flex justify-content-center">
+            <img src="./assets/img/Apple-Img-1.png" alt="" />
+          </div>
+        </div>
+
+        <div class="container-fluid hero hero-black-out">
+          <div class="d-flex justify-content-center">
+            <p class="apple-title text-white">iPhone 15 Pro</p>
+          </div>
+          <div class="d-flex justify-content-center">
+            <p class="apple-subtitle text-white">
+              Titanium. So strong. So light. So Pro.
+            </p>
+          </div>
+          <div class="d-flex justify-content-center">
+            <p>
+              <a href="" class="apple-link py-0 my-0 px-3">Learn more></a>
+              <a href="" class="apple-link py-0 my-0 px-3">Buy></a>
+            </p>
+          </div>
+          <div class="d-flex justify-content-center">
+            <img src="./assets/img/Apple-Img-2.png" alt="" />
+          </div>
+        </div>
+
+        <div class="container-fluid my-3">
+          <div class="d-flex justify-content-center">
+            <img src="./assets/img/Apple-Img-3.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <!-- ------------------------------ CARDS DESDE SCRIPT --------------------------------------->
+      <section
+        class="container-fluid flex row justify-content-between m-0"
+        id="contenedorCards"
+      >
+        <!--
+        <div class="card cardH" style="width: 50%">
+          <div class="cardH-body">
+            <h5 class="cardH-Title">iPhone 15</h5>
+            <p class="cardH-Subtitle">New camera. New design. Newphoria.</p>
+            <button class="btn card-btn-buy col-lg-2">Learn more</button
+            ><button class="btn card-btn-buy col-lg-2" data-id="">Buy></button>
+          </div>
+          <img src="./assets/img/Card1.png" class="" alt="..." />
+        </div>
+-->
+        <!----------- TEMPLATE--------------->
+        <template id="templateCards">
+          <div class="card cardH" style="width: 50%">
+            <div class="cardH-body">
+              <h5 class="cardH-Title">iPhone 15</h5>
+              <p class="cardH-Subtitle">New camera. New design. Newphoria.</p>
+              <p class="cardH-Description">
+                New camera. New design. Newphoria.
+              </p>
+              <button class="btn card-btn-buy col-lg-2">Learn more</button
+              ><button class="btn card-btn-buy cbuy col-lg-2" data-id="">
+                Buy>
+              </button>
+            </div>
+            <img src="./assets/img/Card1.png" class="img-bot" alt="..." />
+          </div>
+        </template>
+      </section>
+    </main>
+
+    <script src="./assets/js/index.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
