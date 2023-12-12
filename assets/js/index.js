@@ -78,6 +78,7 @@ const detectarBuy = (equipo) => {
       localStorage.setItem("equipos", JSON.stringify(carrito));
 
       //pintarCarrito();
+      xCart(carrito);
     });
   });
 };
